@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: "Outfit", system-ui;
+}
+.scrollbar-hide::-webkit-scrollbar{
+    display: none;
+}
+/* 
+.svg{
+    background-image: url(./assets//ssscribble.svg);
+    background-size: cover; */
+/* } */
+
+/* Hide spinner controls for number inputs */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+  appearance: textfield; /* General support */
+}
+
+.dashboard-card::-webkit-scrollbar{
+    display: none;
+}
+
